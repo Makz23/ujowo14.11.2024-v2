@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./Style/Img/log.ico" />
+    <!-- https://sass-lang.com/ -->
+    <link rel="stylesheet" href="./Style/style_index.css" />
+    <script src="./Scritps/values.js" defer></script>
+    <script src="./Scritps/applicationMenu.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu" id="menu">
+        <div></div>
+        <h1>M</h1>
+        <div></div>
+      </div>
+    </header>
+
+    <header class="header__menu--open" id="menuContainer">
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li>
+          <button class="header__menu--close__list" id="menu--close">
+            Close
+          </button>
+        </li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="shop">
+        <h1>Our Products</h1>
+        <div class="products">
+          <div class="product">
+            <img src="./Style/Img/img1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>This is a great product that you will love!</p>
+            <button class="buy-button" onclick="addToCart('Product 1')">Buy Now</button>
+          </div>
+          <div class="product">
+            <img src="./Style/Img/img1.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>This product is amazing and has great features!</p>
+            <button class="buy-button" onclick="addToCart('Product 2')">Buy Now</button>
+          </div>
+          <div class="product">
+            <img src="./Style/Img/img1.jpg" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>Our latest product with fantastic capabilities!</p>
+            <button class="buy-button" onclick="addToCart('Product 3')">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  </body>
+</html>

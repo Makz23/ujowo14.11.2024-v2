@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap; // Disable wrapping to keep images in a single row
+    gap: 30px; // Space between images
+    overflow-x: auto; // Enable horizontal scrolling if needed
+    margin-left: 120px;
+  
+    img {
+      width: 300px; // Set a fixed width for each image for a uniform row
+      height: auto;
+      object-fit: cover;
+    }
+  }
